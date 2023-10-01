@@ -1,0 +1,12 @@
+.table-footer{
+    border-radius: 0px 0px 20px 20px;
+    padding: 15px 20px;
+    color: #084b97;
+    font-weight: 600;
+    margin-left: 42%;
+
+}
+
+.table-footer span{
+    cursor: pointer;
+}

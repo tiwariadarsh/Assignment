@@ -16,8 +16,8 @@ export const startCronJob = () => {
     }
     const newTransaction = {
       transactionID: generateTransactionID(),
-      amount: Math.random() * 100,
-      description: "Generated Transaction",
+      amount: Math.ceil(Math.random() * 10000),
+      description: "CRON Job Transaction",
     };
     requestCount++;
     await createTransactionService(newTransaction);
